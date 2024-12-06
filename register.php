@@ -44,6 +44,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <center>
 <form method="POST" action="register.php">
+  <br><br><br><br><br><br><br><br><br><br>
+  <H2>REGISTRARSE-REGISTER</H2>
 <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
   <input type="text" name="email" placeholder="E-Mail" required><br>
   <input type="password" name="password" placeholder="Contraseña" required><br>
