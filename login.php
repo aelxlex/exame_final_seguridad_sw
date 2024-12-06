@@ -104,6 +104,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <center>
 <form method="POST" action="login.php">
+  <br><br><br><br><br><br><br><br><br><br>
+  <h2>INICIAR SESION-LOGIN</h2>
   <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
   <input type="email" name="email" placeholder="E-Mail" required><br>
   <input type="password" name="password" placeholder="Contraseña" required><br>
